@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+    .father {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .lower {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blockC {
+        width: 100%;
+    }
+
+.blockB{
+    width: 100%;
+}
+}
+
+/*@media screen and (max-width: 400px) {*/
+/*    .father {*/
+/*        background: darkblue*/
+/*    }*/
+
+/*    .circle {*/
+/*        background: green*/
+/*    }*/
+/*    .circle:hover{background: darkmagenta}*/
+/*    .one {*/
+/*        background: black*/
+/*    }*/
+
+/*    .rectangle {*/
+/*        background: lightskyblue*/
+/*    }*/
+
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
