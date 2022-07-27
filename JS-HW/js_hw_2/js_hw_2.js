@@ -69,8 +69,11 @@ users = [
 ]
 
 console.log(users);
+console.log(users[0].password,users[1].password,users[2].password,users[3].password,users[4].password,users[5].password);
 console.log(users[0]['password']);
-console.log(users[3]['password']);
+console.log(users[1].password);
+console.log(users[2]['password']);
+console.log(users[3].password);
 console.log(users[5]['password']);
 console.log(users[9]['password']);
 console.log(users[0]['nameUser']);
