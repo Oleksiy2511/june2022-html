@@ -69,6 +69,10 @@ users = [
 ]
 
 console.log(users);
+for (let i = 0; i < users.length; i++) {
+    console.log(users[i].password)
+}
+
 console.log(users[0].password,users[1].password,users[2].password,users[3].password,users[4].password,users[5].password);
 console.log(users[0]['password']);
 console.log(users[1].password);
