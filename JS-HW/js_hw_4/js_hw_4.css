@@ -1,5 +1,7 @@
 .product-card{
     width: 300px;
+    background: cornflowerblue;
+    padding: 5px;
 }
 .product-image{
     width: 100%;
