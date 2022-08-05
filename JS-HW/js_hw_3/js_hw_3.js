@@ -1,7 +1,9 @@
 // - Є змінна х, якій ви надаєте довільне числове значення.
 //     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
-////let x=+prompt('enter number')
-//// if (x!==0 ? 'Вірно':'Невірно')
+// let x=+prompt('enter number')
+// if (x!==0)
+// {document.write('Вірно');}
+// else {document.write('Невірно')}
 //// {console.log('Вірно');}
 //// else {console.log('Невірно')}
 //////////////////////////////////////////////////////////////
@@ -71,3 +73,59 @@
 //         за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподыбне, тобто кастується до false)
 // let x=prompt('value') ||"default";
 // console.log(x);
+
+
+// let x=NaN || 'default';
+// console.log(x);
+//
+// let x1='' || 'default';
+// console.log(x1);
+//
+// let x2=0 || 'default';
+// console.log(x2);
+//
+// let x3=null || 'default';
+// console.log(x3);
+//
+// let x4=undefined|| 'default';
+// console.log(x4);
+//
+// let x5='hello'|| 'default';
+// console.log(x5);
+//
+// let x6=25|| 'default';
+// console.log(x6);
+//
+// let x7=true|| 'default';
+// console.log(x7);
+//
+
+// let xxx=0
+// if (xxx===NaN){
+//     console.log('default')}
+// else if (xxx===undefined){
+//     console.log('default')}
+// else if (xxx===0){
+//     console.log('default')}
+// else if (xxx===null){
+//     console.log('default')}
+// else if (xxx===''){
+//     console.log('default')}
+// else {
+//     console.log(xxx)}
+
+// let xxx='дойшло';
+// if (xxx){
+//     console.log(xxx)}
+// else {
+//     console.log('default')}
+
+// let xxx=25||'default';
+// console.log(xxx);
+
+
+
+
+
+
+
