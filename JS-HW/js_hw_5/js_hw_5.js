@@ -92,5 +92,7 @@
 // console.log(sum([1, 2, 10]));
 // console.log(sum([2, 3, 4]));
 
-
-
+// const max = (array) => {
+//   return Math.max.apply(null,array)
+// }
+// console.log(max([5, 8, 6, 1, 3, 7, 52, 99, 98, 25, 45, 91]));
