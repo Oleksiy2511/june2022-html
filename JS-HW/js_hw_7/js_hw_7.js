@@ -17,7 +17,7 @@
 // // let user8 = new User(19,'Anna','Anova','anna@conm',9632558741);
 // // let user9 = new User(8,'Ilya','Ilyin','ilya@com',741258369);
 // // let user10 = new User(10,'Ivan','Ivanov','vanya@com',852369741);
-// //
+// //////////////////////////////////////////////////////////////////
 // // // створити пустий масив, наповнити його 10 об'єктами new User(....)
 // // let arrayUsers2=[user1,user2,user3,user4,user5,user6,user7,user8,user9,user10]
 // // console.log(arrayUsers2);
@@ -108,7 +108,7 @@
 // // console.log(car3);
 // // car1.addDriver({name:'Olya',age:25,violation:15});
 // // console.log(car1);
-//
+//////////////////////
 // // - (Те саме, тільки через клас)
 // // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // // class Car {
