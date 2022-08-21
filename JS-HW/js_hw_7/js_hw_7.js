@@ -201,9 +201,4 @@
 // //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 // let cinderellaFoot = arrCinderella.find(value => prince1.shoeFound===value.footSize);
 // console.log(cinderellaFoot);
-//
-//
-//
-//
-//
-//
+
