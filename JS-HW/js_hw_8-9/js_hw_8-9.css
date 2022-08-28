@@ -1,0 +1,63 @@
+/*////simpsons////*/
+/*div>div{*/
+/*    width: 300px;*/
+/*    border: goldenrod solid 2px;*/
+/*    border-radius: 10px;*/
+/*    padding: 5px;*/
+/*    margin: 5px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*/////*courses**/
+/*.wrap{*/
+/*    border: 5px black solid;*/
+/*}*/
+
+/*.course{*/
+/*  border: 3px solid red;*/
+/*    padding: 10px;*/
+/*    margin: 20px;*/
+/*}*/
+/*.h1{*/
+/*    border: 2px solid blue;*/
+/*}*/
+
+/*.twoParagraph{*/
+/*    display: flex;*/
+/*}*/
+/*.paragraph1{*/
+/*    border: 2px solid blue;*/
+/*    width: 30%;*/
+/*}*/
+/*.paragraph2{*/
+/*    border: 2px solid blue;*/
+/*    width: 70%;*/
+/*    margin-left: 10px;*/
+/*}*/
+/*.ulDiv{*/
+/*    border: 2px solid blue;*/
+/*}*/
+/*.li{*/
+/*    border: 1px solid blue;*/
+/*    margin: 5px;*/
+/*}*/
+
+
+.divElement{
+    display: flex;
+}
+
+.item{
+    background: #99a0af;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.hide{
+    display:none;
+}
+
+
+
+
