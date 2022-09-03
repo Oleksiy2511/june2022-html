@@ -1,0 +1,97 @@
+/*--//  css//  index.html - всі блоки з user - по 2 в рядок. кнопки/посилання розташувати під інформацією про user.-->*/
+
+.index {
+    border: 4px solid black;
+    padding: 5px;
+    background: #d7e5fa;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 10px;
+
+}
+
+.userDiv {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    border: solid black 2px;
+    margin: 5px;
+    padding: 2px;
+    background: yellow;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+/*--//  css//   user-details.html - блок з інфою про user зверху сторінки. Кнопка нижче, на 90% ширини сторінки, по центру.-->*/
+/*--//  css//   блоки з короткою інфою про post - в ряд по 5 .-->*/
+.userDetails {
+    min-height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.liUserDetail {
+    background: #45c3c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid red;
+    margin: 2px;
+}
+
+
+/*--//   css//  post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.-->*/
+
+.postDetails{
+    min-height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.liComment{
+    border: 2px solid crimson;
+    margin: 2px;
+    padding: 2px;
+    background: cornflowerblue;
+}
+
+.p{
+    border: 1px solid black;
+    background: #45c3c5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
