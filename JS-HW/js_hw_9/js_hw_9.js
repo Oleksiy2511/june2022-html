@@ -213,7 +213,7 @@
 // document.body.appendChild(divElement)
 // divElement.innerText='hello people';
 // const node = divElement.cloneNode(true);
-// document.appendChild(node)
+// document.body.appendChild(node)
 
 // - Є масив:
 // Взяти файл template1.html та додати в нього скрипт котрий для кожного елементу масиву створює li та додає його до блоку .menu
