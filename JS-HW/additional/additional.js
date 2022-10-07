@@ -112,7 +112,7 @@
 // for (let i = 1; i <=100; i=i+2)
 //     console.log([i]);
 ////     c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
-
+console.log(Math.random(50));
 ////     d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
 
 // 2. Вивести за допомогою console.log кожен третій елемент
