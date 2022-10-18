@@ -67,21 +67,24 @@ users = [
     {nameUser: 'Svitlana', username: 'korolewa', password: 666666},
     {nameUser: 'Jora', username: 'jora', password: 777777}
 ]
+let map1 = users.map(value => value.username);
+console.log(map1);
+document.write(map1);
 
-console.log(users);
-for (let i = 0; i < users.length; i++) {
-    console.log(users[i].password)
-}
-
-console.log(users[0].password,users[1].password,users[2].password,users[3].password,users[4].password,users[5].password);
-console.log(users[0]['password']);
-console.log(users[1].password);
-console.log(users[2]['password']);
-console.log(users[3].password);
-console.log(users[5]['password']);
-console.log(users[9]['password']);
-console.log(users[0]['nameUser']);
-console.log(users[7]['username']);
+// console.log(users);
+// for (let i = 0; i < users.length; i++) {
+//     console.log(users[i].password)
+// }
+//
+// console.log(users[0].password,users[1].password,users[2].password,users[3].password,users[4].password,users[5].password);
+// console.log(users[0]['password']);
+// console.log(users[1].password);
+// console.log(users[2]['password']);
+// console.log(users[3].password);
+// console.log(users[5]['password']);
+// console.log(users[9]['password']);
+// console.log(users[0]['nameUser']);
+// console.log(users[7]['username']);
 
 ///////як вивести всі паролі одразу????//////Дякую за увагу////////
 

@@ -237,6 +237,7 @@
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
+//////// coursesAndDurationArray.map(value => <div>{value.title} ++ {value.monthDuration} months</div>)////////
 // let div = document.createElement('div');
 // document.body.appendChild(div);
 // for (let item of coursesAndDurationArray) {
