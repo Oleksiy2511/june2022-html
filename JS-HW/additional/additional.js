@@ -105,17 +105,31 @@
 
 /////////////////////*******add-3*******/////////////////////////
 // 1. Створити пустий масив та :
+// let arr = [];
 ////     a. заповнити його 50 парними числами за допомоги циклу.
 // for (let i = 2; i <=100; i=i+2)
-//     console.log([i]);
+//     arr.push(i)
+// console.log(arr);
+//
 ////     b. заповнити його 50 непарними числами за допомоги циклу.
 // for (let i = 1; i <=100; i=i+2)
-//     console.log([i]);
+//     arr.push(i);
+//     console.log(arr);
+//
 ////     c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
-console.log(Math.random(50));
+// let getRandomInt=(max)=>Math.floor(Math.random() * max);
+// for (let i = 1; i <=20; i++)
+// arr.push(getRandomInt(50))
+// console.log(arr);
+//
 ////     d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
-
+// const getRandomArbitrary = (min, max) => Math.floor(Math.random() * (max - min) + min);
+// for (let i = 1; i <= 30; i++)
+//     arr.push(getRandomArbitrary(8, 732))
+// console.log(arr)
+//
 // 2. Вивести за допомогою console.log кожен третій елемент
+
 
 // 3. Вивести за допомогою console.log кожен третій елемент тільки якщо цей елемент є парним.
 
